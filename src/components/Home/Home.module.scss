@@ -1,0 +1,43 @@
+.wrapper {
+  max-width: 1200px;
+  height: 1000px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.header {
+  font-size: rem-calc(72);
+  font-weight: 700;
+  line-height: auto;
+  color: #1f2c4a;
+}
+
+.section {
+  background-color: #1f2c4a;
+  padding: 15px;
+  width: rem-calc(700);
+  height: rem-calc(60);
+  border-radius: 5px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.section h2 {
+  color: #fff;
+}
+
+.section h3 {
+  font-style: italic;
+  color: coral;
+}
+
+.container {
+  width: rem-calc(700);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 15px;
+  margin-top: 0px;
+}
