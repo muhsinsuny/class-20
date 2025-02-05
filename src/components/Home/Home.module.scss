@@ -41,3 +41,21 @@
   padding: 15px;
   margin-top: 0px;
 }
+
+// Button ::after {
+//   content: '';
+//   display: block;
+//   transform: scaleX(0);
+// }
+
+// Button :hover ::after {
+//   transform: translateY(-5px);
+//   transition: all 0.3s ease;
+//   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+// }
+
+.container button:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
